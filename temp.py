@@ -1,7 +1,7 @@
 import openai
 import os
 # Replace 'your_api_key' with your actual API key
-openai.api_key = "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"# grab the env variable
+openai.api_key = "your_api_key"# grab the env variable
 
 def generate_website(prompt):
   response=openai.ChatCompletion.create(
